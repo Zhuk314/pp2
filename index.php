@@ -22,15 +22,12 @@ error_reporting(E_ALL);
 <body>
 <?php
 echo "<p>PHP Array Practice</p>";
+include 'functions.php';
 
 // 2. Define an array $numbers...
 $numbers = array(7,9,8,9,8,8,6);
 
-function printArr($array) {
-    foreach($array as $value){
-        echo "<p>$value</p>";
-    }
-}
+
 
 printArr($numbers);
 
